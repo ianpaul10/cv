@@ -123,18 +123,18 @@
       {Senior Backend Software Engineer}{Mar 2022 -- Mar 2024}
       {EcoCart Sciences}{Remote in Vancouver, BC}
       \resumeItemListStart
-        \resumeItem{Served as technical lead building out the emissions calculation API that determines the manufacturing and shipping emissions of an e-commerce purchase, utilized by third party clients and an EcoCart managed Shopify app}
-        \resumeItem{Co-led the re-build of the main backend application from a monolithic Django app to a serverless microservice system to handle the highly variable load of e-commerce access patterns}
-        \resumeItem{Built the internal API that calculates the carbon emissions of a shipment based on weight, volume, origin, destination, midpoints, mode(s) of transportation, and vehicle(s) used}
+        \resumeItem{Led the architectural transformation from a monolithic Django application to a serverless microservice system, delivering 40\% reduction in median response time and 4x reduction in 95th percentile response time for the real-time emissions calculation engine, dramatically enhancing performance during high-traffic periods like Black Friday and Cyber Monday}
+        \resumeItem{Refactored the Shopify-specific external API into a platform agnostic API to support any e-commerce partner, and successfully onboarded 3 new e-commerce platforms}
+        \resumeItem{Developed the internal shipping emissions calculation API that determines carbon emissions by analyzing shipment characteristics including weight, volume, origin, destination, transportation modes, and specific vehicle model}
       \resumeItemListEnd
       
     \resumeSubheading
       {Software Engineer}{May 2018 -- Mar 2022}
       {Canalyst Financial Modeling Corporation}{Vancouver, BC}
       \resumeItemListStart
-        \resumeItem{Served as technical lead on a web API application that handled on-demand manipulation of 4000+ Excel files into client-defined formats, enhancing the usability for fundamental equity clients}
-        \resumeItem{Developed a pandas-inspired Python SDK used by data science clients to perform multi-company analysis, scenario analysis, risk management, and screening}
-        \resumeItem{Co-developed a tool to automatically update customized client workbooks with the latest financial reports to allow clients to preserve their work without needing to manually update models during earnings season}
+	\resumeItem{Led the development of a web API that dynamically transformed 4000+ custom Excel files into client-specified formats, enabling on-demand and customized financial data retrieval for fundamental equity research teams}
+	\resumeItem{Published a pandas-inspired Python SDK that enabled data science teams to conduct complex multi-company financial analysis, enabling advanced scenario modeling, risk assessment, and investment screening}
+	\resumeItem{Developed a 3-way diff and merge algorithm that reconciles updates between Canalyst's base financial models and customized client variations, automatically propagating client-specific modifications into new model versions while preserving the integrity of custom work during earnings report updates}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -186,8 +186,20 @@
 %    \resumeSubHeadingListEnd
 
 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of British Columbia}{Sep 2014 -- Apr 2018}
+      {Bachelor of Commerce (Finance), Sauder School of Business}{Vancouver, BC}
+      \resumeItemListStart
+        \resumeItem{Recipient of the Peter Lee Scholarship in Finance and the International Learning Program Scholarship}
+        \resumeItem{Awarded 1st place at the 2018 International Case Competition @ Maastricht, competing against 16 universities}
+        \resumeItem{Held lectures for 200+ students as the Managerial Accounting Teaching Assistant from Jan 2017 -- Apr 2017}
+        \resumeItem{UBC Men's Rugby team member; nominated to be the UBC Totems' captain for the 2015 season}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
 
-%
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
@@ -199,29 +211,14 @@
     }}
  \end{itemize}
 
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of British Columbia}{Sep 2014 -- Apr 2018}
-      {Bachelor of Commerce (Finance), Sauder School of Business}{Vancouver, BC}
-      \resumeItemListStart
-        \resumeItem{Recipient of the Peter Lee Scholarship in Finance and the International Learning Program Scholarship}
-        \resumeItem{Awarded 1st place at the 2018 International Case Competition @ Maastricht, competing against 16 universities}
-        \resumeItem{Held lectures for 200+ students as the Managerial Accounting Teaching Assistant from Jan 2017 -- Apr 2017}
-        \resumeItem{UBC Men's Rugby team member; nominated the UBC Totems' captain for the 2015 season}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-  \section{Skills and Interests}
+\section{Interests}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Avid traveler}{; visited 51 countries worldwide and have played rugby in Canada, US, England, Scotland, and Germany}\\
+     \textbf{Open source contributor}{; active contributor to }\href{https://github.com/exo-explore/exo}{\underline{Exo}}{, a library to run your own AI cluster with everyday devices}\\
+     \textbf{Avid traveler}{; visited 51 countries and have played rugby in Canada, US, England, Scotland, and Germany}\\
      \textbf{Devoted runner}{; Marathon PR – 3:16:36; 10K PR – 39:51; 1 mile PR – 4:57}
     }}
  \end{itemize}
-
 
 %-------------------------------------------
 \end{document}
